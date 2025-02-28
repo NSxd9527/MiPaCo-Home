@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MiPaCo Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* 淺灰白 */
+            color: #333;
+        }
+        header {
+            background-color: #eaeaea; /* 淺灰白 */
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .cat {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #fff; /* 白色背景 */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .cat img {
+            max-width: 70%; /* 縮小圖片寬度為容器的 70% */
+            height: auto; /* 保持圖片比例 */
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease; /* 添加圖片縮放效果 */
+        }
+        .cat img:hover {
+            transform: scale(1.05); /* 滑鼠懸停時略微放大圖片 */
+        }
+        .cat h2 {
+            margin-top: 0;
+            color: #ff6f61;
+        }
+        .cat h2 a {
+            text-decoration: none;
+            color: #ff6f61;
+        }
+        .cat h2 a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #d4e7f9; /* 淺藍色 */
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Misu X Panna Cotta</h1>
+    </header>
+    <div class="container">
+        <!-- 第一隻貓 -->
+        <div class="cat">
+            <img src="Misu.jpeg" alt="Misu">
+            <h2><a href="misu.html">Misu</a></h2>
+            <p>2022-10-28</p>
+            <p>性格：曬太陽。</p>
+            <p>趣事：！</p>
+        </div>
+        <!-- 第二隻貓 -->
+        <div class="cat">
+            <img src="Panna.jpeg" alt="Panna">
+            <h2><a href="panna.html">Panna</a></h2>
+            <p>2023-09-24</p>
+            <p>性格：。</p>
+            <p>趣事：！</p>
+        </div>
+        <!-- 第三隻貓 -->
+        <div class="cat">
+            <img src="Cotta.jpeg" alt="Cotta">
+            <h2><a href="cotta.html">Cotta</a></h2>
+            <p>2023-09-24</p>
+            <p>性格：。</p>
+            <p>趣事：！</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 MiPaCo Home</p>
+    </footer>
+</body>
+</html>
